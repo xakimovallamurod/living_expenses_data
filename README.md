@@ -2,7 +2,7 @@
 
 ## objective
 
-This project is to calculate the living expenses of a person in a month.
+Bu loyiha odamning bir oy ichida yashash xarajatlarini hisoblash uchun mo‘ljallangan.
 
 ## data
 
@@ -17,25 +17,24 @@ This project is to calculate the living expenses of a person in a month.
     "health": 30, 
     "internet": 60, 
     "education": 200, 
-    "other": 100,
+    "other": 100
 }
 ```
-
-- rent: monthly rent
-- utilities: monthly utilities
-- transport: monthly transport
-- food: monthly food
-- entertainment: monthly entertainment
-- clothing: monthly clothing
-- health: monthly health
-- internet: monthly internet
-- education: monthly education
-- other: monthly other
+- rent: oylik ijara
+- utilities: oylik kommunal xizmatlar
+- transport: oylik transport
+- food: oylik oziq-ovqat
+- entertainment: oylik ko‘ngilochar harajatlar
+- clothing: oylik kiyim-kechak
+- health: oylik sog‘liqni saqlash
+- internet: oylik internet
+- education: oylik ta'lim
+- other: boshqa oylik xarajatlar
 
 ## functions
 
-- `get_data`: get the data from a json file
-- `total_expenses`: calculate the total expenses of a person in a month
-- `average_expenses`: calculate the average expenses of a person in a month
-- `the_most_expensive`: calculate the most expensive expenses of a person in a month
-- `the_least_expensive`: calculate the least expensive expenses of a person in a month
+- `get_data`: json fayldan ma'lumotlarni olish
+- `total_expenses`: odamning bir oy ichidagi umumiy xarajatlarini hisoblash
+- `average_expenses`: odamning bir oy ichidagi o‘rtacha xarajatlarini hisoblash
+- `the_most_expensive`: odamning bir oy ichidagi eng qimmat xarajatlarini hisoblash
+- `the_least_expensive`: odamning bir oy ichidagi eng arzon xarajatlarini hisoblash
